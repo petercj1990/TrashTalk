@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 app.get('/', function (req, res) {
-  res.sendFile(path.resolve("../frontend/index.html"));
+  res.sendFile(path.resolve("/root/TrashTalk/frontend/index.html"));
 });
 
 app.listen(80, function () {
