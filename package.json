@@ -1,0 +1,22 @@
+{
+  "name": "TrashTalk",
+  "version": "0.0.0",
+  "description": "TrashTalk app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhatTheQuan/TrashTalk.git"
+  },
+  "author": "Quan",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/WhatTheQuan/TrashTalk/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.4"
+  }
+}
